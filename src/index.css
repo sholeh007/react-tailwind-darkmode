@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Nunito", sans-serif;
+    @apply scroll-smooth;
+    @apply scroll-pt-[71px];
+  }
+  body {
+    @apply bg-gray-100;
+  }
+}
